@@ -21,13 +21,8 @@
 
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--space-6);
-}
-
-.portfolio-grid .portfolio-card:nth-child(4),
-.portfolio-grid .portfolio-card:nth-child(5) {
-  grid-column: span 1;
 }
 
 .portfolio-card {

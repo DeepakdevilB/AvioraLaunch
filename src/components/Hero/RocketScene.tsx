@@ -127,6 +127,7 @@ function EngineTrail() {
       <bufferGeometry>
         <bufferAttribute
           attach="attributes-position"
+          args={[positions, 3]}
           count={particleCount}
           array={positions}
           itemSize={3}
@@ -221,6 +222,7 @@ function FloatingParticles() {
       <bufferGeometry>
         <bufferAttribute
           attach="attributes-position"
+          args={[positions, 3]}
           count={particleCount}
           array={positions}
           itemSize={3}

@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 import './Process.css';
 
@@ -27,7 +27,7 @@ const steps = [
   },
 ];
 
-const stepVariants = {
+const stepVariants: Variants = {
   hidden: { opacity: 0, x: -30 },
   visible: (i: number) => ({
     opacity: 1,
