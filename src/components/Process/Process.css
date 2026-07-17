@@ -1,0 +1,119 @@
+.process {
+  padding: var(--space-20) var(--space-6);
+  position: relative;
+}
+
+.process-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.process-header {
+  text-align: center;
+  margin-bottom: var(--space-16);
+}
+
+.process-header .section-subtitle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.process-timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.process-timeline-line {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  bottom: 24px;
+  width: 2px;
+  background: var(--color-border);
+  z-index: 0;
+}
+
+.process-timeline-line-fill {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  width: 2px;
+  height: 0;
+  background: var(--gradient-accent);
+  z-index: 1;
+  transition: height 1.5s ease;
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.3);
+}
+
+.process-timeline-line-fill.active {
+  height: calc(100% - 48px);
+}
+
+.process-step {
+  display: flex;
+  gap: var(--space-6);
+  padding: var(--space-8) 0;
+  position: relative;
+  z-index: 2;
+}
+
+.process-step-indicator {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--color-surface-2);
+  border: 2px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  transition: border-color 0.5s ease, background 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.process-step.active .process-step-indicator {
+  border-color: var(--color-accent);
+  background: rgba(99, 102, 241, 0.15);
+  color: var(--color-accent);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+}
+
+.process-step-content {
+  padding-top: var(--space-2);
+}
+
+.process-step-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-2);
+  letter-spacing: -0.02em;
+}
+
+.process-step-desc {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  max-width: 450px;
+}
+
+@media (max-width: 640px) {
+  .process-step {
+    gap: var(--space-4);
+  }
+
+  .process-step-indicator {
+    width: 40px;
+    height: 40px;
+    font-size: 0.75rem;
+  }
+
+  .process-timeline-line,
+  .process-timeline-line-fill {
+    left: 19px;
+  }
+}
