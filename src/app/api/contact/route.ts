@@ -24,7 +24,7 @@ export async function POST(req: Request) {
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_USER, // Sending to yourself
+      to: process.env.EMAIL_TO || process.env.EMAIL_USER, // Send to the professional email
       replyTo: email,
       subject: `New Lead from Aviora Launch: ${subject || 'General Inquiry'}`,
       html: `
