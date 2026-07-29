@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-top">
           <div className="footer-brand">
             <div className="footer-brand-logo">
-              🚀 Peka Launch
+              🚀 Aviora Launch
             </div>
             <p className="footer-brand-desc">
               We build modern websites, AI automations, and scalable SaaS
@@ -45,7 +45,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p className="footer-copy">
-            © {new Date().getFullYear()} Peka Launch. All rights reserved.
+            © {new Date().getFullYear()} Aviora Launch. All rights reserved.
           </p>
           <div className="footer-socials">
             <a href="#" className="footer-social-link" aria-label="Twitter">𝕏</a>

@@ -9,18 +9,18 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Peka Launch — Modern Websites, AI Automation & SaaS Solutions",
+  title: "Aviora Launch — Modern Websites, AI Automation & SaaS Solutions",
   description:
-    "Peka Launch is a technology agency specializing in website development, AI automation, and custom SaaS solutions that help businesses grow faster.",
+    "Aviora Launch is a technology agency specializing in website development, AI automation, and custom SaaS solutions that help businesses grow faster.",
   keywords: [
     "web development",
     "AI automation",
     "SaaS solutions",
     "technology agency",
-    "Peka Launch",
+    "Aviora Launch",
   ],
   openGraph: {
-    title: "Peka Launch — we launch bussinesss, not rockets",
+    title: "Aviora Launch — we launch bussinesss, not rockets",
     description:
       "We build modern websites, AI automations, and scalable SaaS solutions that help businesses grow faster.",
     type: "website",

@@ -89,7 +89,7 @@ export default function WhyUs() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <p className="section-label">Why Peka Launch</p>
+          <p className="section-label">Why Aviora Launch</p>
           <h2 className="section-title">Built Different, By Design</h2>
           <p className="section-subtitle">
             We combine technical excellence with business strategy to deliver

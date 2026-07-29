@@ -11,7 +11,7 @@ const testimonials = [
     initials: 'SM',
     stars: 5,
     quote:
-      'Peka Launch transformed our online presence completely. Our new website increased reservations by 45% in the first month. Their attention to detail and understanding of our brand was exceptional.',
+      'Aviora Launch transformed our online presence completely. Our new website increased reservations by 45% in the first month. Their attention to detail and understanding of our brand was exceptional.',
   },
   {
     name: 'James Rodriguez',
@@ -19,7 +19,7 @@ const testimonials = [
     initials: 'JR',
     stars: 5,
     quote:
-      'Working with Peka Launch felt like having a tech co-founder. They didn\'t just build a website — they built a membership system that automated our entire onboarding process.',
+      'Working with Aviora Launch felt like having a tech co-founder. They didn\'t just build a website — they built a membership system that automated our entire onboarding process.',
   },
   {
     name: 'Emily Chen',
@@ -35,7 +35,7 @@ const testimonials = [
     initials: 'MW',
     stars: 5,
     quote:
-      'From design to launch, everything was seamless. Our cafe\'s online ordering system has driven a 60% increase in takeaway orders. Peka Launch truly understands small business needs.',
+      'From design to launch, everything was seamless. Our cafe\'s online ordering system has driven a 60% increase in takeaway orders. Aviora Launch truly understands small business needs.',
   },
   {
     name: 'Priya Sharma',

@@ -34,7 +34,7 @@ export default function Navbar() {
         <div className="navbar-inner">
           <a href="#" className="navbar-logo">
             <span className="navbar-logo-icon">🚀</span>
-            Peka Launch
+            Aviora Launch
           </a>
 
           <ul className="navbar-links">
